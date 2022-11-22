@@ -6,21 +6,95 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: linear-gradient(bisque, black); 
-}
-
-header {
-  background-color: rgb(222, 189, 42);
-}
-
 .container {
   max-width: 800px;
   background-color: white;
   margin: auto;
 }
 
-img {
+body {
+  background-image: linear-gradient(bisque, black); 
+  font-family: sans-serif;
+  line-height: 1.3rem;
+}
+
+header {
+  background-color: rgb(222, 189, 42);
+  padding: 5px;
+  text-align: center;
+}
+
+header div {
+  padding: 10px;
+}
+
+header div h1 {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+header div p {
+  font-size: 1.2rem;
+  padding-top: 15px;
+}
+
+header nav {
+  height: 100%;
+}
+
+header nav a{
+  text-decoration: none;
+  color: rgb(47, 43, 17);
+  padding: 0 5px;
+}
+
+header nav a:hover{
+  text-decoration: underline;
+  background-color: white;
+  border-radius: 8px;
+  padding: 2px 5px;
+}
+
+section {
+  padding: 10px;
+  text-align: justify; 
+}
+
+section p {
+  text-indent: 30px;
+  padding: 10px 0;
+}
+
+
+.mapa {
+  max-width: 600px;
+  margin: auto;
+}
+
+.mapa img {
+  width: 600px;
+  display: block;
+}
+
+
+.img{
+  height: 50vh;
+  background-image: url(../assets/EURO.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+.img img {
   max-width: 600px;
 }
 
+
+footer {
+  background-color: white;
+  height: 3vh;
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 1.1rem;
+}
